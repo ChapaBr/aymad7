@@ -1,0 +1,418 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	font-family: 'Raleway', sans-serif !important;
+}
+
+a {
+	color: #FF6F00;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	transition: all .35s;
+}
+
+a:hover,
+a:focus {
+	color: #c6c6c6;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 400;
+	color: #FF6F00;
+	margin: 50px 0px 0px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	font-weight: 400;
+	color: #000;
+}
+
+section {
+	padding: 100px 0;
+}
+
+section h2 {
+	font-size: 40px;
+}
+
+/* === MENU === */
+
+.logo-menu {
+	max-width: 60%;
+	height: auto;
+}
+
+.logo-empresa {
+	width: 80.9px;
+	height: 50px;
+}
+
+.navbar-nav {
+	margin-left: 48.5% !important;
+	margin-top: 16px;
+}
+
+#mainNav {
+	border-color: rgba(34, 34, 34, 0.05);
+	background-color: #fff;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	transition: all .35s;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #FF6F00;
+}
+
+#mainNav .navbar-brand {
+	color: #FF6F00;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand:hover,
+#mainNav .navbar-brand:focus {
+	color: #baa250;
+}
+
+#mainNav .navbar-toggler {
+	font-size: 18px;
+	padding: 8px 10px;
+	color: #FF6F00;
+}
+
+#mainNav .navbar-nav>li>a {
+	font-size: 11px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+#mainNav .navbar-nav>li>a.active {
+	color: #c2233a !important;
+	background-color: transparent;
+}
+
+#mainNav .navbar-nav>li>a.active:hover {
+	background-color: transparent;
+}
+
+#mainNav .navbar-nav>li>a,
+#mainNav .navbar-nav>li>a:focus {
+	font-weight: 700;
+	color: #FF6F00;
+}
+
+#mainNav .navbar-nav>li>a:hover,
+#mainNav .navbar-nav>li>a:focus:hover {
+	color: #baa250;
+}
+
+.menu-disc {
+	margin: 30px 0px;
+}
+
+.dep-area {
+	margin: 35px 0px 35px;
+	font-size: 30px !important;
+	font-weight: 500;
+	background-color: rgba(191, 191, 191, 0.5);
+	border: 2px solid #FF6F00;
+	border-radius: 7px;
+	padding: 7px;
+	text-transform: uppercase;
+}
+
+/* ===FIM-MENU=== */
+
+/* ===MAIS-VENDIDOS=== */
+
+#header {
+	background-position: center;
+	background: url(../img/esportes.png) fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.block-sold h1 {
+	color: #FF6F00;
+	font-size: 40px;
+	font-weight: 700;
+	margin-top: 30%;
+}
+
+.block-sold .icone {
+	font-size: 3em;
+	color: #FF6F00;
+	border: 4px solid #FF6F00;
+	border-radius: 50px;
+	height: 80px;
+	width: 80px;
+	padding: 12px;
+	margin-top: 40px;
+}
+
+/* ===FIM-MAIS-VENDIDOS=== */
+
+/* ===PAGE-BODY=== */
+
+.btn_conhecer {
+	font-weight: 700;
+	font-size: 11px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #FF6F00;
+	border-radius: 7px;
+	border: 2px solid;
+	border-color: #FF6F00;
+	padding: 15px 45px;
+	text-decoration: none !important;
+}
+
+.btn_conhecer:hover,
+.btn_conhecer:focus {
+	background-color: #baa250;
+	border-color: #baa250;
+	color: #fff;
+}
+
+/* ===FIM-PAGE-BODY=== */
+
+/* ===PAGE-INICIO=== */
+
+#master-header {
+	position: relative;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+	background-image: url(../img/bg-header.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+section .box-destaque {
+	border: 2.5px solid #FF6F00;
+	border-radius: 10px;
+}
+
+.img-car {
+	float: left;
+	max-width: 70%;
+	margin: 20% 0 20%;
+}
+
+section .title-header {
+	text-transform: uppercase;
+	font-size: 53px;
+	color: #FF6F00;
+}
+
+section .header-p {
+	font-size: 23px;
+}
+
+.carousel-item {
+
+}
+
+.carousel-item span{
+	float: right;
+	color: #000;
+	width: 50%;
+	text-align: justify;
+	margin-top: 20%
+}
+
+/* ===FIM-PAGE-INICIO=== */
+
+/* ===UNIFORMES=== */
+
+#galeria .row .col-lg-12 h2 {
+	margin: 35px 0px 35px;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.btn_comprar {
+	font-weight: 700;
+	font-size: 12px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #00a000 !important;
+	border-radius: 7px;
+	border: 2px solid;
+	border-color: #00a000;
+	padding: 15px 30px;
+}
+
+.btn_comprar:hover,
+.btn_comprar:focus {
+	transition: 0.8s;
+	background-color: #00a000;
+	border-color: #00a000;
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.caixas {
+	height: auto;
+	width: auto;
+	border-radius: 7px;
+	border: 2px solid;
+	border-color: #FF6F00;
+	padding: 20px;
+	margin: 20px 10px 0px;
+}
+
+.caixa-disc {
+	border-radius: 7px;
+	border: 1px solid;
+	border-color: #000;
+	padding: 2px;
+	margin-bottom: 20px;
+}
+
+.img-produto {
+	text-align: center;
+	width: 100%;
+	max-width: 90%;
+	margin-top: 10px;
+}
+
+.disc-produto {
+	font-weight: 700;
+	font-size: 12px;
+	border-top: 1px solid #000;
+	margin-top: 15px;
+	vertical-align: sub;
+	margin-bottom: 0px;
+	background-color: rgba(191, 191, 191, 0.5);
+}
+
+/* ===FIM-UNIFORMES=== */
+
+/* ===EQUIPAMENTOS=== */
+
+#equipamentos {
+	background-color: rgba(191, 191, 191, 0.5);
+	border: 2px solid #FF6F00;
+	border-radius: 7px;
+}
+
+/* ====FIM-EQUIPAMENTOS=== */
+
+/* ===AGUARDANDO=== */
+
+#aguardando {}
+
+/* ====FIM-AGUARDANDO=== */
+
+/* ===DIVERSOS=== */
+
+#diversos {
+	background-color: rgba(191, 191, 191, 0.5);
+	border: 2px solid #FF6F00;
+	border-radius: 7px; 
+}
+
+/* ===FIM-DIVERSOS=== */
+
+/* ===INICIO-MODAL=== */
+
+.title-modal-comprar {
+	text-align: center;
+	color: #FF6F00;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+.btn-modal-fechar {
+	font-weight: 700;
+	font-size: 11px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: red !important;
+	border-radius: 7px;
+	border: 2px solid;
+	border-color: red;
+	padding: 10px 15px;
+	background-color: #fff;
+}
+
+.btn-modal-fechar:hover,
+.btn-modal-fechar:focus {
+	transition: 0.8s;
+	background-color: red;
+	color: #fff !important;
+}
+
+.logo-anunciado {
+	height: 100px;
+	width: 100px;
+	border: 2px  solid	#FF6F00;
+	border-radius: 7px;
+	padding: 2px;
+}
+
+/* ===FIM-MODAL=== */
+
+/* ===RODAPE=== */
+
+#rodape {
+	background-color: rgba(191, 191, 191, 0.5);
+	padding: 0px;
+	border: 2px solid #FF6F00;
+	border-radius: 7px;
+}
+
+footer #rodape .comp {
+	color: #FF6F00 !important;
+	text-align: center;
+	margin: 0px;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+footer #rodape .comp:hover,
+footer #rodape .comp:focus {
+	color: #baa250 !important;
+	text-decoration: none;
+}
+
+footer .rodape-comp {
+	color: #FF6F00;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+/* ===FIM-RODAPE=== */
